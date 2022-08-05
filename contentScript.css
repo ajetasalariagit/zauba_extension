@@ -1,6 +1,6 @@
 .get_data_btn{
     position: absolute;
-    left: 98px;
+    left: 284px;
     /* top: 0px; */
     width: 527px;
     height: 63px;
@@ -13,4 +13,7 @@
     padding: 11px;
     margin-right: -119%;
     margin-top:340px;
+}
+#mytextbox{
+    margin-bottom: 16px;
 }
