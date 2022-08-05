@@ -1,0 +1,16 @@
+.get_data_btn{
+    position: absolute;
+    left: 98px;
+    /* top: 0px; */
+    width: 527px;
+    height: 63px;
+    z-index: 2;
+    top: 111px;
+}
+.btn-container{
+    border: 2px solid black;
+    margin-left: 185%;
+    padding: 11px;
+    margin-right: -119%;
+    margin-top:340px;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Zauba Extension",
+  "description": "This extention to show the content into the page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+      "service_worker": "background.js"
+    },
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab",
+    "scripting",
+    "input"
+  ],
+  "content_scripts":[
+      {
+          "matches":["https://www.zaubacorp.com/company-list/status-Active/p-1-company.html*"],
+          "js":["contentScript.js"],
+          "css":["contentScript.css"]
+      }
+  ],
+  "host_permissions": [
+    "https://www.zaubacorp.com/company-list/status-Active/p-1-company.html*"
+  ],
+  "action": {
+    "default_popup": "content.html"
+  }
+}
